@@ -1,0 +1,49 @@
+body{
+padding-top: 100px;
+}
+#promo1{
+	background-color: indianred;
+	color: whitesmoke;
+}
+li.dropdown a:hover{
+	background-color: indianred;
+	color: whitesmoke;
+}
+.thumbnail{
+	border: none;
+}
+footer{
+	position: absolute;
+	width: 100%;
+	background-color: #2c3e50;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	color: whitesmoke;
+}
+footer img{
+	margin:2%;
+}
+.breadcrumb{
+	position: fixed;
+}
+.submenu{
+	position: fixed;
+	right: 0;
+}
+section .breadcrumb{
+	width: 100%;
+}
+.catA{
+	margin:1%;
+	background-color: indianred;
+	color: whitesmoke;
+}
+.catB{
+	margin:1%;
+	background-color: #2c3e50;
+	color: whitesmoke;
+}
+.catC{
+	margin:1%;
+	background-color: whitesmoke;
+}

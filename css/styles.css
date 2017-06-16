@@ -1,25 +1,53 @@
-body{
+#mainBody{
+padding-top: 60px;
+}
+.catBody{
 padding-top: 100px;
+
 }
 #promo1{
-	background-color: indianred;
-	color: whitesmoke;
+
 }
 li.dropdown a:hover{
 	background-color: indianred;
 	color: whitesmoke;
 }
-.thumbnail{
-	border: none;
+aside{
+	position: fixed;
 }
-footer{
-	position: absolute;
+#mainCats{
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#mainCats a{
+	color: #2c3e50;
+}
+#mainCats a:hover{
+	text-decoration: none;
+}
+
+.catsFooter{
+background-color:#3f5973;
+	color: whitesmoke;
 	width: 100%;
-	background-color: #2c3e50;
 	margin-bottom: 0;
 	padding-bottom: 0;
+
 	color: whitesmoke;
 }
+#mainFooter{
+background-color: #3f5973;
+	color: whitesmoke;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+	color: whitesmoke;
+}
+
 footer img{
 	margin:2%;
 }
@@ -30,20 +58,55 @@ footer img{
 	position: fixed;
 	right: 0;
 }
-section .breadcrumb{
+#marcas{
+	display: flex;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#social{
+	display: flex;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+div .breadcrumb{
 	width: 100%;
 }
+.list-group, .list-group-item{
+	border-style: none;
+	margin-top:3px;
+	margin-bottom:3px;
+	border: 0px;
+}
 .catA{
-	margin:1%;
 	background-color: indianred;
 	color: whitesmoke;
 }
 .catB{
-	margin:1%;
 	background-color: #2c3e50;
 	color: whitesmoke;
 }
 .catC{
-	margin:1%;
+	background-color: #18bc9c;
+	color: whitesmoke;
+}
+.catD{
 	background-color: whitesmoke;
+}
+.catE{
+	background-color: white;
+}
+.cats{
+
+	margin-bottom: 2%;
+}
+.cats a{
+	color: #2c3e50;
+}
+.cats a:hover{
+	color: #18bc9c;
+	text-decoration: none;
 }
